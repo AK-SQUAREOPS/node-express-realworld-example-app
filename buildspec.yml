@@ -21,7 +21,7 @@ phases:
        
   post_build:
     commands:
-      - chmod +x Appstop.sh Appstart.sh  
+      #- chmod +x Appstop.sh Appstart.sh  
        
 artifacts:
   files:
