@@ -6,10 +6,10 @@ files:
     overwrite: true
 hooks:
   ApplicationStart:
-    - location: scripts/appstart.sh
+    - location: appstart.sh
       timeout: 300
       runas: ubuntu
   ApplicationStop:
-    - location: scripts/appstop.sh
+    - location: appstop.sh
       timeout: 300
       runas: ubuntu   
