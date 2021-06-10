@@ -9,7 +9,4 @@ hooks:
     - location: appstart.sh
       timeout: 300
       runas: ubuntu
-  ApplicationStop:
-    - location: appstop.sh
-      timeout: 300
-      runas: ubuntu   
+  
