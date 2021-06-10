@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/ubuntu/node-express-realworld-example-app
-npm stop
+pm2 stop app.js
