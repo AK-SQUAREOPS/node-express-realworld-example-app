@@ -10,6 +10,12 @@ phases:
     commands:
       - sed -i "s|MONGODB_URI=.*|MONGODB_URI='$Mongouri'|g" .env
       - sed -i "s|NODE_ENV.*|NODE_ENV=production|g" .env
+      sudo apt-get install -y nodejs
+      sudo apt-get install npm -y
+      sudo npm install -g n
+      sudo n latest
+      sudo npm install -g npm@7.12.1
+      sudo npm install pm2 -g
       #- sed -i "s|DB_HOST.*|DB_HOST=$host|g" .env
       #- sed -i "s|DB_USER.*|DB_USER=$username|g" .env
       #- sed -i "s|DB_PASS.*|DB_PASS=$pass|g" .env
