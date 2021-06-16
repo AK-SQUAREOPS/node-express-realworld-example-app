@@ -1,5 +1,7 @@
 version: 0.1
-
+env: 
+  parameter-store: 
+    HOST: "ip1"
 phases:
   install:
     commands:
