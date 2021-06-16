@@ -11,7 +11,7 @@ phases:
   pre_build:
     commands:
        - npm install
-       - sed -i 's|localhost|'$ip1'|' app.js  
+       - sed -i 's|localhost|'$HOST'|' app.js  
       #- sed -i "s|MONGODB_URI=.*|MONGODB_URI='$Mongouri'|g" .env
       #- sed -i "s|NODE_ENV.*|NODE_ENV=production|g" .env
       #- sed -i "s|DB_HOST.*|DB_HOST=$host|g" .env
